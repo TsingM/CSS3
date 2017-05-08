@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>nevermore自定义表单样式整理</title>
+        <link rel="stylesheet" type="text/css" href="form.css"/>
+        <style>
+            .item {
+                overflow: hidden;
+                padding: 10px
+            }
+            .nm-radio, .nm-checkbox {
+                float: left;
+                margin: 0 10px
+            }
+        </style>
+    </head>
+    <body>
+        <div class="item">
+            <h4>单选框radio</h4>
+            <div class="nm-radio">
+                <input type="radio" id="radio1" name="radio" checked="checked"/>
+                <label for="radio1"></label>
+            </div>
+            <div class="nm-radio">
+                <input type="radio" id="radio2" name="radio"/>
+                <label for="radio2"></label>
+            </div>
+            <div class="nm-radio">
+                <input type="radio" id="radio3" name="radio-disabled" disabled="disabled" checked="checked"/>
+                <label for="radio3"></label>
+            </div>
+            <div class="nm-radio">
+                <input type="radio" id="radio3" name="radio-disabled" disabled="disabled"/>
+                <label for="radio3"></label>
+            </div>
+        </div>
+        <hr/>
+        <div class="item">
+            <h4>复选框checkbox</h4>
+            <div class="nm-checkbox">
+                <input type="checkbox" id="checkbox1"/>
+                <label for="checkbox1"></label>
+            </div>
+            <div class="nm-checkbox">
+                <input type="checkbox" id="checkbox2" disabled="disabled"/>
+                <label for="checkbox2"></label>
+            </div>
+            <div class="nm-checkbox">
+                <input type="checkbox" id="checkbox3" disabled="disabled" checked="checked"/>
+                <label for="checkbox3"></label>
+            </div>
+        </div>
+        <hr/>
+        <div class="item">
+            <h4>输入框input</h4>
+            <div>
+                
+            </div>
+        </div>
+        <hr/>
+        <div class="item">
+            <h4>下拉框select</h4>
+            <div>
+                
+            </div>
+        </div>
+    </body>
+</html>

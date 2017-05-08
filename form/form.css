@@ -1,0 +1,86 @@
+/***
+    单选框radio
+*/
+.nm-radio {
+    position: relative;
+    width: 16px;
+    height: 16px;
+}
+.nm-radio input {
+    position: absolute;
+    visibility: hidden
+}
+.nm-radio label {
+    position: absolute;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #d7d7d7;
+    border-radius: 9px;
+}
+/*选中状态*/
+.nm-radio input:checked + label {
+    border: 1px solid #1baede;
+}
+.nm-radio input:checked + label:before {
+    content: "";
+    position: absolute;
+    top: 3px; left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #1baede;
+}
+/*禁用状态*/
+.nm-radio input:disabled + label {
+    border: 1px solid #d7d7d7;
+}
+.nm-radio input:disabled + label:before {
+    background-color: #d7d7d7
+}
+
+/***
+    复选框checkbox
+*/
+.nm-checkbox {
+    position: relative;
+    width: 16px;
+    height: 16px;
+}
+.nm-checkbox input {
+    position: absolute;
+    visibility: hidden;
+}
+.nm-checkbox label {
+    position: absolute;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #d7d7d7;
+}
+/*选中状态*/
+.nm-checkbox input:checked + label {
+    border: 1px solid #1baede;
+}
+.nm-checkbox input:checked + label:before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #1baede;
+}
+.nm-checkbox input:checked + label:after {
+  content: "";
+  position: absolute;
+  left: 2px;bottom: 6px;
+  width: 8px;height: 4px;
+  border: 2px solid #ffffff; border-top-color: transparent; border-right-color: transparent;
+  -ms-transform: rotate(-60deg); -moz-transform: rotate(-60deg); -webkit-transform: rotate(-60deg); transform: rotate(-45deg);
+}
+/*禁用状态*/
+.nm-checkbox input:disabled + label {
+    border: 1px solid #d7d7d7;
+}
+.nm-checkbox input:disabled + label, .nm-checkbox input:disabled + label:before {
+    background-color: #d7d7d7;
+}
