@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>nevermore自定义表单样式整理</title>
+        <title>nevermore自定义表单样式demo</title>
         <link rel="stylesheet" type="text/css" href="form.css"/>
         <style>
             .item {
@@ -11,11 +11,14 @@
                 float: left;
                 margin: 0 10px
             }
+            .nm-select {
+                width: 300px
+            }
         </style>
     </head>
     <body>
         <div class="item">
-            <h4>单选框radio</h4>
+            <h4>单选框 radio</h4>
             <div class="nm-radio">
                 <input type="radio" id="radio1" name="radio" checked="checked"/>
                 <label for="radio1"></label>
@@ -35,7 +38,7 @@
         </div>
         <hr/>
         <div class="item">
-            <h4>复选框checkbox</h4>
+            <h4>复选框 checkbox</h4>
             <div class="nm-checkbox">
                 <input type="checkbox" id="checkbox1"/>
                 <label for="checkbox1"></label>
@@ -51,16 +54,15 @@
         </div>
         <hr/>
         <div class="item">
-            <h4>输入框input</h4>
-            <div>
-                
-            </div>
-        </div>
-        <hr/>
-        <div class="item">
-            <h4>下拉框select</h4>
-            <div>
-                
+            <h4>下拉框 select</h4>
+            <div class="nm-select">
+                <i></i>
+                <input type="text" />
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
             </div>
         </div>
     </body>
