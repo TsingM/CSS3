@@ -92,7 +92,7 @@ CSS的重点就在于<label>的样式实现上，已笔者当前所写系统样�
   left: 2px;bottom: 6px;
   width: 8px;height: 4px;
   border: 2px solid #ffffff; border-top-color: transparent; border-right-color: transparent;
-  -ms-transform: rotate(-60deg); -moz-transform: rotate(-60deg); -webkit-transform: rotate(-60deg); transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); transform: rotate(-45deg);
 }
 ```
 禁用状态的实现也与radio类似：
